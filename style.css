@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Lato:wght@400;700&family=Noto+Serif+Display:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    background-color: white;
+    border-radius: 20px;
+    padding-right: 10px;
+    box-shadow: 0 0 1px rgb(67, 65, 65);
+
+}
+
+.coffee-mug-img {
+    height: 380px;
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+#coffee-mug-text {
+    color: grey;
+    font-size: 2em;
+    margin-top: -40px;
+    margin-bottom: 8px;
+}
+
+b {
+    color: green;
+    font-size: 2rem;
+}
+
+s {
+    color: gray;
+    font-size: small;
+    margin-left: 7px;
+}
+
+#main-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(67, 65, 65);
+}
+
+#add-cart {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(17, 165, 123);
+    padding: 8px 8px;
+    border-radius: 7px;
+    color: rgb(227, 226, 226);
+    font-weight: bold;
+    width: 300px;
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+.fa {
+    margin-right: 13px;
+}
+
+#add-cart:hover {
+    cursor: pointer;
+    background-color: rgb(7, 66, 49);
+}
